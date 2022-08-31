@@ -16,7 +16,7 @@ function Banner({ netflixOriginals }: Props) {
     console.log("hello world");
     console.log(netflixOriginals);
     setMovie(
-      netflixOriginals[Math.floor(Math.random() * netflixOriginals?.length)]
+      netflixOriginals[Math.floor(Math.random() * 9)]
     );
   }, [netflixOriginals]);
 
