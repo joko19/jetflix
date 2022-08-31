@@ -36,9 +36,9 @@ const Home = ({
       </Head>
 
       <Header />
-      <main>
+      <main className="relative pl-4 lpb-16 lg:space-y-24 lg:pl-16 ">
         <Banner netflixOriginals={netflixOriginals} />
-        <section></section>
+        <section className="h-screen"></section>
       </main>
     </div>
   );
